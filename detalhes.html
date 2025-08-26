@@ -1,0 +1,638 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        /* mudar cor da barra de rolagem vertical e horizontal */
+
+        /* */ 
+
+/* Remover Efeito links e imagem*/
+
+/* Remove o efeito azul ao clicar em imagens (Android e iOS) */
+img {
+    -webkit-tap-highlight-color: transparent !important;
+    user-select: none !important; /* Evita seleção acidental */
+}
+
+/* Remove o sublinhado e o efeito ao clicar em links */
+a {
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+/* Evita qualquer destaque ao clicar em links */
+a:focus, a:active {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Se houver um efeito de fundo azul no clique, tente isso */
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0) !important;
+}
+        
+        /**/
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black; /* Aqui muda a cor de fundo também, é mais manual. */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* COR DOS LINKS */
+    a {
+      color: #d7d7d7; /* Link puro */
+      text-decoration: none;
+    }
+    a:hover {
+      color: #8b8b8c; /* Link Clicado */
+    }     
+        /*  */
+        
+    </style>    
+</head>
+<body>
+<!------------------------------------------------------------------------------ --->
+
+    <!--------- Cabeçalho---->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link para o Font Awesome -->
+    <link rel="stylesheet" href="styles.css"> <!-- Seu arquivo CSS, caso tenha -->
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <a href="index.html">
+    <header class="header">
+        <div class="logo-container">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgItwql1etSsC5_GDSweu-j3e2HuKDfVmGLezb_ZdtsdnyUNp3p71zvcxjz9U-_A6bwuo31NyhrQox0CbIEoB8x_vIQrCH-zAnMsz_sRtrS9ZWBRYSYCuXBIHZgnkAVBC8l-wQHmqkN-UgavGn4g4mUlsHALwxeoNx6t7e_CC21W_7yNa5EXLDOEZ-QIrcq/s150/16%20Sem%20T%C3%ADtulo_20250323193255.png" alt="Logo" class="logo">
+        </div>
+     </a>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/seuusuario" target="_blank" class="social-icon">
+                <i class="fab fa-instagram"></i> <!-- Ícone do Instagram -->
+            </a>
+            <a href="https://discord.gg/seulink" target="_blank" class="social-icon">
+                <i class="fab fa-discord"></i> <!-- Ícone do Discord -->
+            </a>
+            <a href="buscar.html" target="_blank" class="social-icon">
+    <i class="fas fa-search"></i> <!-- Ícone de busca -->
+            </a>
+        </a>
+        
+        </div>
+    </header>
+
+    <!-- Conteúdo do site aqui -->
+</body>
+</html>
+   <!----- fim ----> 
+
+    
+<!---- Player e Descrição------->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Detalhes do Post</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #181818;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        .video-container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .video-section {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .video-section iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+
+        .info-section {
+            margin-top: 20px;
+        }
+
+        .info-section h2 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .channel {
+            display: flex;
+            align-items: center;
+            margin-top: 10px;
+        }
+
+        .channel img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .channel span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .description {
+            margin-top: 15px;
+            font-size: 16px;
+            color: #bbb;
+        }
+
+        .tags {
+            margin-top: 15px;
+        }
+
+        .tags span {
+            background-color: #444;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-right: 10px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .tags span:hover {
+            background-color: #888;
+        }
+
+        @media (max-width: 800px) {
+            .video-container {
+                padding: 10px;
+            }
+
+            .video-section iframe {
+                height: 300px;
+            }
+
+            .info-section h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-container">
+    <div class="video-section">
+        <iframe id="videoPlayer" src="" title="Vídeo do YouTube"></iframe>
+    </div>
+
+    <div class="info-section">
+        <h2 id="videoTitle">Carregando...</h2>
+        <div class="channel">
+            <img id="channelImg" src="" alt="Canal">
+            <span id="channelName">Carregando...</span>
+        </div>
+        <p class="description" id="videoDescription">Carregando descrição...</p>
+        <div class="tags" id="videoTags"></div>
+    </div>
+</div>
+
+<script>
+    // Simulando um banco de dados de vídeos
+    const videos = {
+        1: {
+            title: "Com 17 anos eu consigo provar que Você Não é Homem!",
+            videoId: "_CYOBdVkbBA",
+            channelName: "Dabliuk",
+            channelImg: "https://yt3.googleusercontent.com/G-FC8wZnq8zRysOU6kGP1acBZs62lER4AALACLBknHFbifil3ySu_vZ8wPhcgnQ6aIQ4NfaA=s160-c-k-c0x00ffffff-no-rj",
+            description: "A Masculinidade Verdadeira vai muito Além do que coachs e influenciadores Pregam!",
+            tags: ["Motiva Fé"]
+        },
+        2: {
+            title: "Os Melhores Animes de Ação de Todos os Tempos",
+            videoId: "Mk94tl7yAd0?si=QPDIRZQC2Twc8Wem",
+            channelName: "Aronax",
+            channelImg: "https://yt3.googleusercontent.com/wd6MngN0aG_HuY_1Y5R2ABdMCEdQaq9OyPrRYq0nMAuqSPveNlGbiPsKF50orCRMNz6TRwST8gg=s160-c-k-c0x00ffffff-no-rj",
+            description: "",
+            tags: ["Motiva Fé", "Reflexão"]
+        },
+        3: {
+            title: "Estás Comigo - Leidi Lima [AMV]",
+            videoId: "IJhXqWDk58s",
+            channelName: "Leidi Lima ♪",
+            channelImg: "https://yt3.googleusercontent.com/bZnbosxw8oMibzWxyw9HgVM9zoccm26L8PDw00nX0uRSAM68F6x-1U4MteA7FV6ooZg3ilVv6wY=s160-c-k-c0x00ffffff-no-rj",
+            description: "Esses mangás marcaram gerações e são leitura obrigatória para qualquer fã.",
+            tags: ["Música", "AMV"]
+        },
+        4: {
+            title: "TIMÓTEO eles podem, VOCÊ não..",
+            videoId: "xTXe6sutfH8?si=W9khO1cPz9qP8bu4",
+            channelName: "Kath",
+            channelImg: "https://yt3.googleusercontent.com/G5whNKIh7lEbTvOvuz6Nnjjtq-B9WB_wQAgNNsh9E3kzW5DcjqUoggEpL3MYMtPY5ZGRahbF6A=s160-c-k-c0x00ffffff-no-rj",
+            description: "Conheça as canções que definiram gerações e moldaram a história do rock.",
+            tags: ["Motiva Fé", "Reflexão"]
+        },
+        5: {
+            title: "Filmes de Terror Que Você Não Pode Perder",
+            videoId: "w8TqIwvS2O8",
+            channelName: "Terror Mania",
+            channelImg: "https://yt3.googleusercontent.com/terror_channel.jpg",
+            description: "Se você é fã de adrenalina, esse post é para você. Confira os filmes que te deixarão sem dormir.",
+            tags: ["Filmes", "Terror"]
+        },
+        6: {
+            title: "Como Melhorar Suas Habilidades de Programação",
+            videoId: "MKkVFXMGwWY",
+            channelName: "Dev Master",
+            channelImg: "https://yt3.googleusercontent.com/dev_channel.jpg",
+            description: "Dicas e truques essenciais para aprimorar sua carreira como desenvolvedor de software.",
+            tags: ["Tecnologia", "Programação"]
+        },
+        7: {
+            title: "Viagens Incríveis Pelo Mundo",
+            videoId: "fY-5Uo_suNE",
+            channelName: "TravelVibes",
+            channelImg: "https://yt3.googleusercontent.com/travel_channel.jpg",
+            description: "Explore os destinos mais exóticos e os melhores lugares para viajar.",
+            tags: ["Viagem", "Aventura"]
+        },
+        8: {
+            title: "Os Melhores Jogos de Todos os Tempos",
+            videoId: "sU3r-bNKPY8",
+            channelName: "Gamer Zone",
+            channelImg: "https://yt3.googleusercontent.com/gaming_channel.jpg",
+            description: "Descubra os jogos mais inovadores e amados pelos fãs de todas as idades.",
+            tags: ["Jogos", "Gamer"]
+        }
+    };
+
+    // Pega o ID do post salvo no localStorage
+    const postId = localStorage.getItem("postId");
+
+    // Verifica se o vídeo existe no "banco de dados"
+    if (videos[postId]) {
+        const videoData = videos[postId];
+
+        // Atualiza os elementos da página com os dados do vídeo
+        document.getElementById("videoPlayer").src = `https://www.youtube.com/embed/${videoData.videoId}`;
+        document.getElementById("videoTitle").innerText = videoData.title;
+        document.getElementById("channelName").innerText = videoData.channelName;
+        document.getElementById("channelImg").src = videoData.channelImg;
+        document.getElementById("videoDescription").innerText = videoData.description;
+
+        // Adiciona as tags dinamicamente
+        const tagsContainer = document.getElementById("videoTags");
+        tagsContainer.innerHTML = ""; // Limpa as tags antigas
+        videoData.tags.forEach(tag => {
+            const tagElement = document.createElement("span");
+            tagElement.innerText = tag;
+            tagsContainer.appendChild(tagElement);
+        });
+
+    } else {
+        // Se o ID não for válido, exibe um erro
+        document.querySelector(".video-container").innerHTML = "<h2>Vídeo não encontrado</h2>";
+    }
+</script>
+
+</body>
+</html>
+    <!------   -------->
+
+    
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header de Seção</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111;
+            padding: 15px 20px;
+            color: white;
+            flex-wrap: nowrap; /* Mantém tudo na mesma linha */
+            min-width: 280px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            white-space: nowrap; /* Evita que o texto quebre */
+            flex-grow: 1; /* Permite ajuste dinâmico */
+        }
+
+        .view-all {
+            font-size: 14px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap; /* Mantém o botão em linha única */
+            min-width: fit-content; /* Evita que o botão encolha demais */
+        }
+
+        .view-all:hover {
+            text-decoration: underline;
+        }
+
+        /* Ajuste para telas muito pequenas */
+        @media (max-width: 350px) {
+            .section-header {
+                padding: 10px;
+            }
+            
+            .section-title {
+                font-size: 16px;
+            }
+
+            .view-all {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section-header">
+        <span class="section-title">Gêneros</span>
+        <a href="#" class="view-all">Ver Todos &#9654;</a>
+    </div>
+
+</body>
+</html>
+
+    <!------------Grade de Posts -------------->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts Responsivos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .post-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .post {
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .post img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .post-content {
+            background-color: #1f1f1f;
+            color: white;
+            padding: 15px;
+        }
+
+        .post-category {
+            font-size: 12px;
+            opacity: 0.8;
+            text-transform: uppercase;
+        }
+
+        .post-title {
+            font-size: 16px;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .post-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+    <!------- -------->
+<body>
+
+<div class="post-container">
+    
+    <!-- Post 1 -->
+    <div class="post">
+        <a href="javascript:void(0);" onclick="abrirDetalhes(1)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKfZ5tjsaMOAIcqd4eQYc8gRyEVGjVtsxvKnkDx8k55eUg4oFZoQnMscOcvsJ1KnOi4PyKi9f4LWvy9oUrLtlarAslqF8WeRZix_e07Xhvecpq-RfDBffTy-JQvJmjNkgZRY6yrbL6St5bfu_HbBDIA2Bv1Ct26wm3Rw9V_lMdUvW1NTaovWettEZdKQ3/s686/19%20Sem%20T%C3%ADtulo_20250328051500.jpg" alt="Post 1">
+        </a>
+        <div class="post-content">
+            <a href="javascript:void(0);" onclick="abrirDetalhes(1)">
+                <span class="post-category">Tema Aqui</span>
+            </a>
+            <a href="javascript:void(0);" onclick="abrirDetalhes(1)">
+                <div class="post-title">Slot Vazio</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Post 2 -->
+    <div class="post">
+        <a href="javascript:void(0);" onclick="abrirDetalhes(2)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKfZ5tjsaMOAIcqd4eQYc8gRyEVGjVtsxvKnkDx8k55eUg4oFZoQnMscOcvsJ1KnOi4PyKi9f4LWvy9oUrLtlarAslqF8WeRZix_e07Xhvecpq-RfDBffTy-JQvJmjNkgZRY6yrbL6St5bfu_HbBDIA2Bv1Ct26wm3Rw9V_lMdUvW1NTaovWettEZdKQ3/s686/19%20Sem%20T%C3%ADtulo_20250328051500.jpg" alt="Post 2">
+        </a>
+        <div class="post-content">
+            <a href="javascript:void(0);" onclick="abrirDetalhes(2)">
+                <span class="post-category">Tema Aqui</span>
+            </a>
+            <a href="javascript:void(0);" onclick="abrirDetalhes(2)">
+                <div class="post-title">Slot Vazio</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Post 3 -->
+    <div class="post">
+        <a href="javascript:void(0);" onclick="abrirDetalhes(3)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKfZ5tjsaMOAIcqd4eQYc8gRyEVGjVtsxvKnkDx8k55eUg4oFZoQnMscOcvsJ1KnOi4PyKi9f4LWvy9oUrLtlarAslqF8WeRZix_e07Xhvecpq-RfDBffTy-JQvJmjNkgZRY6yrbL6St5bfu_HbBDIA2Bv1Ct26wm3Rw9V_lMdUvW1NTaovWettEZdKQ3/s686/19%20Sem%20T%C3%ADtulo_20250328051500.jpg" alt="Post 3">
+        </a>
+        <div class="post-content">
+            <a href="javascript:void(0);" onclick="abrirDetalhes(3)">
+                <span class="post-category">Tema Aqui</span>
+            </a>
+            <a href="javascript:void(0);" onclick="abrirDetalhes(3)">
+                <div class="post-title">Slot Vazio</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- Post 4 -->
+    <div class="post">
+        <a href="javascript:void(0);" onclick="abrirDetalhes(4)">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBKfZ5tjsaMOAIcqd4eQYc8gRyEVGjVtsxvKnkDx8k55eUg4oFZoQnMscOcvsJ1KnOi4PyKi9f4LWvy9oUrLtlarAslqF8WeRZix_e07Xhvecpq-RfDBffTy-JQvJmjNkgZRY6yrbL6St5bfu_HbBDIA2Bv1Ct26wm3Rw9V_lMdUvW1NTaovWettEZdKQ3/s686/19%20Sem%20T%C3%ADtulo_20250328051500.jpg" alt="Post 4">
+        </a>
+        <div class="post-content">
+            <a href="javascript:void(0);" onclick="abrirDetalhes(4)">
+                <span class="post-category">Tema Aqui</span>
+            </a>
+            <a href="javascript:void(0);" onclick="abrirDetalhes(4)">
+                <div class="post-title">Slot Vazio</div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function abrirDetalhes(postId) {
+        // Armazena o ID do post no localStorage
+        localStorage.setItem('postId', postId);
+        // Redireciona para a página de detalhes
+        window.location.href = "detalhes.html";
+    }
+</script>
+
+</body>
+    </html>
+
+        <!------ Header de Seção  / Fim de Container / Barra de Navegação de Conteúdo----->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header de Seção</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #111;
+            padding: 15px 20px;
+            color: white;
+            flex-wrap: nowrap; /* Mantém tudo na mesma linha */
+            min-width: 280px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            font-weight: bold;
+            white-space: nowrap; /* Evita que o texto quebre */
+            flex-grow: 1; /* Permite ajuste dinâmico */
+        }
+
+        .view-all {
+            font-size: 14px;
+            text-decoration: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            white-space: nowrap; /* Mantém o botão em linha única */
+            min-width: fit-content; /* Evita que o botão encolha demais */
+        }
+
+        .view-all:hover {
+            text-decoration: underline;
+        }
+
+        /* Ajuste para telas muito pequenas */
+        @media (max-width: 350px) {
+            .section-header {
+                padding: 10px;
+            }
+            
+            .section-title {
+                font-size: 16px;
+            }
+
+            .view-all {
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="section-header">
+        <a href="#" class="view-all">Ver Todos &#9664;</a>
+        <a href="#" class="view-all">Voltar ao Topo &#9650;</a>
+    </div>
+
+</body>
+</html>
+<!-------------------------->
+
+
+    <!------------ FOOTER / CONTÊINER FINAL ------->
+
