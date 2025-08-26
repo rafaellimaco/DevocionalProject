@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Naruto",
+    "imagem": "https://i.ibb.co/YWwcsqM/naruto.jpg"
+  },
+  {
+    "nome": "One Piece",
+    "imagem": "https://i.ibb.co/wRjFKQh/onepiece.jpg"
+  },
+  {
+    "nome": "Bleach",
+    "imagem": "https://i.ibb.co/jRdgwm6/bleach.jpg"
+  },
+  {
+    "nome": "Dragon Ball Z",
+    "imagem": "https://i.ibb.co/ZMGsBPS/dbz.jpg"
+  },
+  {
+    "nome": "Attack on Titan",
+    "imagem": "https://i.ibb.co/TYM0MZy/aot.jpg"
+  }
+]
