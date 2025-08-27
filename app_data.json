@@ -1,32 +1,27 @@
 [
   {
-    "title": "Homem-Aranha",
-    "img": "https://i.imgur.com/1.jpg",
-    "desc": "Peter Parker precisa equilibrar sua vida normal com as responsabilidades como o herói Homem-Aranha.",
-    "chapters": [
-      {
-        "title": "Capítulo 1 - A Origem",
-        "pages": ["https://i.imgur.com/a1.jpg", "https://i.imgur.com/a2.jpg"]
-      },
-      {
-        "title": "Capítulo 2 - O Duende Verde",
-        "pages": ["https://i.imgur.com/b1.jpg", "https://i.imgur.com/b2.jpg"]
-      }
+    "title": "Devocional Diário",
+    "thumbnail": "https://i.imgur.com/1.jpg",
+    "desc": "Mensagem diária de fé e reflexão.",
+    "videos":[
+      {"title":"Versão curta","url":"https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"},
+      {"title":"Versão longa","url":"https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_5mb.mp4"}
     ]
   },
   {
-    "title": "Batman",
-    "img": "https://i.imgur.com/2.jpg",
-    "desc": "Bruce Wayne enfrenta vilões em Gotham City como o vigilante Batman.",
-    "chapters": [
-      {
-        "title": "Capítulo 1 - Ano Um",
-        "pages": ["https://i.imgur.com/c1.jpg", "https://i.imgur.com/c2.jpg"]
-      },
-      {
-        "title": "Capítulo 2 - O Coringa",
-        "pages": ["https://i.imgur.com/d1.jpg", "https://i.imgur.com/d2.jpg"]
-      }
+    "title": "Curiosidades de Anime",
+    "thumbnail": "https://i.imgur.com/2.jpg",
+    "desc": "5 curiosidades incríveis sobre seu anime favorito.",
+    "videos":[
+      {"title":"Episódio 1","url":"https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"}
+    ]
+  },
+  {
+    "title": "Treino Rápido",
+    "thumbnail": "https://i.imgur.com/3.jpg",
+    "desc": "Exercícios rápidos para fazer em casa em 5 minutos.",
+    "videos":[
+      {"title":"Treino Intensivo","url":"https://sample-videos.com/video123/mp4/240/big_buck_bunny_240p_1mb.mp4"}
     ]
   }
 ]
