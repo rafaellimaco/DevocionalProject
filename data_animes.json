@@ -1,22 +1,28 @@
-[
-  {
-    "nome": "Rafael",
-    "imagem": "https://i.ibb.co/YWwcsqM/naruto.jpg"
-  },
-  {
-    "nome": "One Piece",
-    "imagem": "https://i.ibb.co/wRjFKQh/onepiece.jpg"
-  },
-  {
-    "nome": "Bleach",
-    "imagem": "https://i.ibb.co/jRdgwm6/bleach.jpg"
-  },
-  {
-    "nome": "Dragon Ball Z",
-    "imagem": "https://i.ibb.co/ZMGsBPS/dbz.jpg"
-  },
-  {
-    "nome": "Attack on Titan",
-    "imagem": "https://i.ibb.co/TYM0MZy/aot.jpg"
+{
+  "banners": [
+    { "title": "Marvel: Vingadores", "img": "https://i.imgur.com/banner1.jpg", "url": "https://example.com/hq1" },
+    { "title": "DC: Batman", "img": "https://i.imgur.com/banner2.jpg", "url": "https://example.com/hq2" },
+    { "title": "Spider-Man: Miles Morales", "img": "https://i.imgur.com/banner3.jpg", "url": "https://example.com/hq3" }
+  ],
+  "menu": [
+    { "title": "Ação", "img": "https://i.imgur.com/menu1.png", "url": "#Acao" },
+    { "title": "Drama", "img": "https://i.imgur.com/menu2.png", "url": "#Drama" },
+    { "title": "Comédia", "img": "https://i.imgur.com/menu3.png", "url": "#Comedia" },
+    { "title": "Horror", "img": "https://i.imgur.com/menu4.png", "url": "#Horror" },
+    { "title": "Sci-Fi", "img": "https://i.imgur.com/menu5.png", "url": "#SciFi" }
+  ],
+  "categories": {
+    "Ação": [
+      { "title": "Avengers #1", "img": "https://i.imgur.com/hq1.jpg", "url": "https://example.com/hq1" },
+      { "title": "Spider-Man #12", "img": "https://i.imgur.com/hq2.jpg", "url": "https://example.com/hq2" }
+    ],
+    "Drama": [
+      { "title": "Batman: Year One", "img": "https://i.imgur.com/hq3.jpg", "url": "https://example.com/hq3" },
+      { "title": "Watchmen #5", "img": "https://i.imgur.com/hq4.jpg", "url": "https://example.com/hq4" }
+    ],
+    "Comédia": [
+      { "title": "Deadpool #7", "img": "https://i.imgur.com/hq5.jpg", "url": "https://example.com/hq5" },
+      { "title": "Harley Quinn #2", "img": "https://i.imgur.com/hq6.jpg", "url": "https://example.com/hq6" }
+    ]
   }
-]
+}
