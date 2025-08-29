@@ -1,17 +1,17 @@
 {
   "vídeos": {
     "ID1": {
-      "titulo": "Título do vídeo 1",
+      "titulo": "Título do vídeo",
       "descricao": "Descrição completa do vídeo",
       "imagem": "https://link-para-miniatura.jpg",
-      "link": "https://www.youtube.com/watch?v=código",
+      "link": "https://www.youtube.com/watch?v=codigo1",
       "categoria": "Categoria do vídeo"
     },
     "ID2": {
       "titulo": "Outro vídeo",
-      "descricao": "Descrição...",
-      "imagem": "https://link.jpg",
-      "link": "https://www.youtube.com/watch?v=código",
+      "descricao": "Descrição completa do segundo vídeo",
+      "imagem": "https://link-para-miniatura2.jpg",
+      "link": "https://www.youtube.com/watch?v=codigo2",
       "categoria": "Outra categoria"
     }
   }
