@@ -1,10 +1,10 @@
 {
   "vídeos": {
     "ID1": {
-      "titulo": "DEUS TE USA COM O QUE VOCÊ TEM | Camila Barros",
+      "titulo": "Título do vídeo 1",
       "descricao": "Descrição completa do vídeo",
-      "imagem": "https://i.ytimg.com/vi/hB_JhMz2zkQ/mqdefault.jpg",
-      "link": "https://www.youtube.com/watch?v=hB_JhMz2zkQ",
+      "imagem": "https://link-para-miniatura.jpg",
+      "link": "https://www.youtube.com/watch?v=código",
       "categoria": "Categoria do vídeo"
     },
     "ID2": {
