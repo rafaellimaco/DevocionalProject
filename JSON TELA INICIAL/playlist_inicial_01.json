@@ -1,1 +1,40 @@
-
+{
+  "playlists": {
+    "001": {
+      "titulo": "Série: Fé BETAS",
+      "tema": "Motivacional",
+      "descricao": "Uma jornada de vídeos para fortalecer sua fé e renovar sua esperança.",
+      "capa": "https://i.imgur.com/jDKlsX9.jpeg",
+      "videos": [
+        {
+          "titulo": "New saga - uma pequena introdução",
+          "link": "https://www.youtube.com/watch?v=EIY6Hj0-n48"
+        },
+        {
+          "titulo": "1 de setembro de 2021",
+          "link": "https://www.youtube.com/watch?v=Co_8qOWI3No"
+        }
+        {
+          "titulo": "Show do Burrão com Manoel Gomes",
+          "link": "https://www.youtube.com/watch?v=pWcLV10dm-U"
+        }
+      ]
+    },
+    "002": {
+      "titulo": "Série: Luz na Escuridão",
+      "tema": "Reflexão",
+      "descricao": "Vídeos que trazem conforto e direção nos momentos difíceis.",
+      "capa": "https://meusite.com/serie002/capa.jpg",
+      "videos": [
+        {
+          "titulo": "A Luz Que Nunca Se Apaga",
+          "link": "https://www.youtube.com/watch?v=jkl012"
+        },
+        {
+          "titulo": "Caminhando Pela Fé",
+          "link": "https://www.youtube.com/watch?v=mno345"
+        }
+      ]
+    }
+  }
+}
