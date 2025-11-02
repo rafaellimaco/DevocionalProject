@@ -2,17 +2,17 @@
   "banners": [
     {
       "id": "1",
-      "imagem": "https://i.imgur.com/Exemplo1.jpg",
+      "imagem": "https://i.imgur.com/d6KuTuY.jpeg",
       "link": "https://example.com/banner1"
     },
     {
       "id": "2",
-      "imagem": "https://i.imgur.com/Exemplo2.jpg",
+      "imagem": "https://i.imgur.com/d6KuTuY.jpeg",
       "link": "https://example.com/banner2"
     },
     {
       "id": "3",
-      "imagem": "https://i.imgur.com/Exemplo3.jpg",
+      "imagem": "https://i.imgur.com/d6KuTuY.jpeg",
       "link": "https://example.com/banner3"
     }
   ]
