@@ -1,1 +1,24 @@
-
+{
+  "categorias": [
+    {
+      "titulo": "Devocionais",
+      "imagem": "https://i.imgur.com/Zz1Wg2Z.png"
+    },
+    {
+      "titulo": "Favoritos",
+      "imagem": "https://i.imgur.com/V3yhxvQ.png"
+    },
+    {
+      "titulo": "Histórico",
+      "imagem": "https://i.imgur.com/pv5YzO4.png"
+    },
+    {
+      "titulo": "Compartilhar",
+      "imagem": "https://i.imgur.com/tz0OfTf.png"
+    },
+    {
+      "titulo": "Configurações",
+      "imagem": "https://i.imgur.com/Jx8eFkp.png"
+    }
+  ]
+}
