@@ -1,26 +1,24 @@
-[
-  {
-    "id": 1,
-    "titulo": "Nova série devocional disponível!",
-    "mensagem": "Assista à nova série 'Crescendo na Fé' agora mesmo.",
-    "data": "2025-11-05",
-    "link": "https://seudominio.com/series/crescendo-na-fe",
-    "tipo": "serie"
-  },
-  {
-    "id": 2,
-    "titulo": "Atualização do aplicativo",
-    "mensagem": "Correções e melhorias foram aplicadas na versão 2.1.",
-    "data": "2025-11-03",
-    "link": "https://seudominio.com/atualizacoes",
-    "tipo": "sistema"
-  },
-  {
-    "id": 3,
-    "titulo": "Novo post devocional",
-    "mensagem": "Leia o devocional do dia: 'Confie no tempo de Deus'.",
-    "data": "2025-11-02",
-    "link": "https://seudominio.com/posts/confie-no-tempo-de-deus",
-    "tipo": "post"
-  }
-]
+{
+  "notifications": [
+    {
+      "title": "Nova série devocional disponível!",
+      "body": "Assista à nova série 'Crescendo na Fé' agora mesmo.",
+      "date": "2025-11-05"
+    },
+    {
+      "title": "Atualização do aplicativo",
+      "body": "Correções e melhorias foram aplicadas na versão 2.1.",
+      "date": "2025-11-03"
+    },
+    {
+      "title": "Novo post devocional",
+      "body": "Leia o devocional do dia: 'Confie no tempo de Deus'.",
+      "date": "2025-11-02"
+    },
+    {
+      "title": "Comunicado importante",
+      "body": "O evento 'Noite de Louvor' foi remarcado para domingo às 19h.",
+      "date": "2025-11-01"
+    }
+  ]
+}
