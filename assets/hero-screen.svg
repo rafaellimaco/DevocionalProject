@@ -1,0 +1,11 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="48" fill="#111111" />
+  <rect x="80" y="80" width="1040" height="120" rx="24" fill="#1f1f1f" />
+  <rect x="80" y="240" width="1040" height="520" rx="32" fill="#1f1f1f" />
+  <rect x="120" y="300" width="960" height="34" rx="16" fill="#2d2d2d" />
+  <rect x="120" y="360" width="620" height="24" rx="12" fill="#2d2d2d" />
+  <rect x="120" y="420" width="820" height="24" rx="12" fill="#2d2d2d" />
+  <rect x="120" y="480" width="720" height="24" rx="12" fill="#2d2d2d" />
+  <rect x="120" y="540" width="540" height="24" rx="12" fill="#2d2d2d" />
+  <text x="100" y="860" fill="#9ca3af" font-family="Inter, sans-serif" font-size="42">Hero image placeholder</text>
+</svg>
